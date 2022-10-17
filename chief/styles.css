@@ -68,12 +68,12 @@ background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fir
 
 }
 
-.main .theme span a { 
+.main .theme a { 
     font-size:5rem;
     color:black;
 }
 
-.main .theme span:hover{color:black;}
+.main .theme a:hover{color:#E0EAFC;}
 
 .main .background { 
  background: #E44D26;  /* fallback for old browsers */
