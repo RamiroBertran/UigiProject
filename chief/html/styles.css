@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{ 
+padding:0; 
+margin:0; 
+box-sizing:border-box; 
+font-size:16px; 
+font-family:'Roboto', sans-serif;
+text-decoration:none;
+list-style:none;
+}
+
+body { 
+max-width:100%; 
+height:100vh; 
+position:relative;
+background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+section {
+max-width:85%; 
+height:100vh;
+}
+.subtitle {
+position:absolute;
+left:50%;
+top:15%;
+transform:translate(-50%, 40%);
+font-size:4rem;
+}
+.what_is {
+width:50%;
+height:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:0.3rem;
+text-align:justify;
+display:flex;
+align-items:center;
+justify-content:center;
+line-height:30px;
+}
+.what_is p { 
+font-size:1.5rem;
+}
+.aside { 
+position:fixed;
+max-width:15%;
+background: #C9CCD3;
+ background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: lighten;
+height:100vh;
+overflow:auto;
+}
+
+.aside > h2,a {
+display:inline-block;
+text-align:left;
+font-size:20px;
+padding:10px;
+min-width:100%;
+color:black;
+}
+
+.aside h2{
+text-align:center;
+padding:20px;
+}
+.aside a:hover{
+background-color:#eee;
+}
+
+.other_content {
+position:absolute;
+top:0;
+right:0;
+width:15%;
+height:10vh;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.5rem;
+font-weight:900;
+z-index:999;
+}
+
+
+.css { 
+width:15%;
+height:50vh;
+display:flex;
+position:absolute;
+top:50px;
+right:0;
+justify-content:center;
+align-items:center;
+}
+.css img {
+object-fit:cover;
+width:95%;
+height:80%;
+padding-right:10px;
+}
+
+.js {
+width:15%;
+height:50vh;
+display:flex;
+position:absolute;
+right:0;
+bottom:0;
+justify-content:center;
+align-items:center;
+padding-right:10px;
+} 
+
+.js img {
+object-fit:cover;
+width:95%;
+height:80%;
+}
+.sec-two {
+z-index:-1;
+position:absolute;
+right:0;
+max-width:85%; 
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+}
+
+.inside-box {
+max-width:95%;
+height:95vh;
+}
+
+.inside-box h2,h3 {
+font-size:2rem;
+padding:10px;
+}
+.inside-box p {
+font-size:1.2rem;
+text-align:justify;
+line-height:30px;
+}
